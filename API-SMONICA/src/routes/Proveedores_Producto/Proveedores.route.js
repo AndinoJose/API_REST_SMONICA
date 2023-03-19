@@ -32,7 +32,7 @@ router.post('/insertprovider', (req, res) =>{
 });
 
 //GET
-// seleccionar Proveedor por nombre
+//Metodo para seleccionar Proveedor por nombre
 router.get("/lookprovider", (req, res) => {
     try {
      const { COD_PROVEEDOR } = req.body;
